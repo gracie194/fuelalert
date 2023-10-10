@@ -1,0 +1,117 @@
+body{
+	padding:0px;
+	margin:10px;
+	font-family:cambria;
+	max-width:100%;
+	background-color:#64CCC5;
+	color:#04364A;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.top{
+	display:flex;
+	align-items:center;
+	position:relative;
+	background-color:#04364A;
+	justify-content:space-between;
+}
+
+.top #logo{
+	background-color:#FFFFFF;
+	height:130px;
+	width:130px;
+	border-radius:50%;
+	justify:flex;
+	padding:0px 0px;
+	margin:30px;
+	size:5px;
+}
+
+#text{
+	font-size:17px;
+}
+
+.write-up #readless{
+	display:none;
+}
+
+#myBtn{
+	padding:5px 5px;
+	background-color:#04364A;
+	color:#DAFFFB;
+	border-radius:30%;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	font-size:13px;
+	width:15%;
+}
+
+h2 #focus{
+	font-family:Microsoft Sans Serif;
+	font-size:28px;
+	color:#04364A;
+
+}
+
+.focus{
+	font-size:22px;
+	align-items:center;
+	justify-content:center;
+    text-align:center;
+    color:#DAFFFB;
+}
+
+#mockup1{
+	heighth:700px;
+    width:100%;
+}
+
+#slogan{
+	background-color:#04364A;
+	text-align:center;
+	font-family:Merryo UI;
+	font-size:15px;
+	color:#DAFFFB;
+	margin:25px;
+}
+
+h2{
+	text-align:center;
+}
+
+ul{
+	background-color:white;
+	margin:50px;
+	list-style-type:none;
+    padding:0px;
+    display:block;
+    text-align:center;
+}
+
+
+li{
+display:inline;
+float:right;
+border-right:1px solid #DAFFFB;
+}
+
+li a{
+	background-color:#64CCC5;
+	display:block;
+	color:#DAFFFB;
+	text-align:center;
+	padding:10px 12px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#176B87;
+}
+
+
+li a:active{
+	background-color:#00BCDC;
+}
