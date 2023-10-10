@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>report_fuel_price</title>
+	<link rel="stylesheet" type="text/css" href="user_report_fuel_price.css">
+</head>
+<body><div id="container">
+	<div id="div1">
+<h1 >WELCOME TO THE <u>USER REPORT FUEL PRICE </u> PAGE.</h1>
+</div>
+<div id="div2">
+<span>Name:</span>
+<input type="text" placeholder="Enter your name" id="name"><br><br>
+<span>Feul station name:</span>
+<input type="text" name="name" id="address" placeholder="enter station name"><br><br> 
+<span>Feul station address:</span>
+<input type="text" name="address" id="stationName" placeholder="enter station address"><br><br> 
+<span>Feul station price:</span>
+<input type="text" name="name" id="price" placeholder="0.00"><br>
+<p id="pi"></p><br> 
+<span >Report problem:</span><br>
+<input type="text" name="reports" placeholder="Enter reports" id="report">
+<button id="submit" onclick="be()" >Submit</button>
+</div>
+</div>
+
+
+<script>
+	let price = document.getElementById("price");
+price.innerText = price.value="$"
+let ptag = document.getElementById("pi")
+let symbol = "$"
+function be(){
+if(price.value == price.isInteger()){
+	ptag.innerText = "correct"
+}else{ptag.innerText = "Pls input an amount"}
+}
+</script>
+</body>
+</html>
