@@ -11,6 +11,71 @@ body{
   font-family: 'poppins';
   background-color: var(--secondary-color);
 }
+#statisticsNav{
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 10vh;
+  margin-top: 90px;
+  background-color:  var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+}
+
+#statisticsNav li{
+  list-style: none;
+  padding: 10px; 
+}
+#statisticsNav li:hover{
+  cursor: pointer;
+  color: #f05462;
+  background: var(--off-color); 
+}
+#statisticsContent{
+  margin-top: 60px; 
+}
+#adminNav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+}
+#adminContent{
+  margin-top: 80px;
+}
+#adminNav li{
+  padding: 10px;
+}
+#adminNav li:hover{
+  cursor: pointer;
+  color: #f05462;
+  background: var(--primary-color);
+}
+/* #blogsNav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#blogContent{
+  margin-top: 50px; 
+}
+#blogsNav li{
+  padding: 10px;
+}
+#blogsNav li:hover{
+  cursor: pointer;
+  color: #f05462;
+  background: var(--primary-color);
+} */
 .sidebar{
   width: 200px;
   background-color:var(--off-color);
@@ -25,10 +90,35 @@ body{
 .sidebar li{
   padding: 10px;
 }
+.class{
+  border: 1px solid var(--off-color);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.blogs{
+  border: 1px solid var(--off-color);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.admincontent{
+  border: 1px solid var(--off-color);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.statisticsContent{
+  border: 1px solid var(--off-color);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
 .sidebar li:hover{
   cursor: pointer;
   color: #f05462;
-  background: #ffff;
+  background: var(--primary-color);
 }
 header{
   position: fixed;
@@ -42,11 +132,29 @@ header{
   justify-content:space-between;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
 }
+#dash{
+  display: flex;
+  justify-content: center;
+ justify-content:center;
+}
 header img{
   height: 140px;
   width: 170px;
   margin: 5px;
   padding: 5px;
+}
+#headerimg{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 500px;
+
+}
+#header-search{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-right: 700px;
 }
 input{
   display: flex;
@@ -69,7 +177,6 @@ main{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-
   padding: 20px;
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -80,6 +187,7 @@ main{
 }
 .card{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -92,6 +200,12 @@ main{
   color: #fff;
   padding: 20px;
   border-radius: 5px;
+}
+.stats{
+margin-top: 70px;
+}
+.statsh5{
+margin-bottom: 60px;
 }
 footer{
   position: fixed;
