@@ -1,0 +1,226 @@
+:root{
+--pri-clr:#04364A;
+--sec-clr: #176B87;
+--acct-clr: #64ccc5;
+--Tert-clr: #DAFFFB;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+    background-color:var(--pri-clr);
+    margin-top:5px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;	
+}
+	
+#nav{
+ 	margin-top:40px;
+	display:flex;
+	flex-direction: row;
+    /*height: 100%;
+	width: 100%;*/
+	color: var(--Tert-clr);
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+ .logo2{
+ 	margin-left: -10px;
+ 	margin-right: 40px;
+ }
+
+ .logo img{
+    background-color: white;
+	border-radius: 100px;
+    margin-left: 25px;
+ }
+
+ ul{
+ 	list-style: none;
+ 	color: #04364A;
+ }
+
+ul li a{
+ 	text-decoration: none;
+ 	color: var(--Tert-clr);
+    margin-right: 50px;
+ }
+
+body{
+  	background-image: url("access/fuel4.png");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  }
+
+#main_holder{
+	width: 100%;
+/*	height: 80%;
+*/	display: flex; 
+	justify-content: center;
+	align-items: center;
+	background-color:rgba(23,107,135,0.5);
+
+}
+
+#header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#login_header{
+	color: var(--pri-clr);
+	margin: 10px;
+	padding: 5px;
+	font-family: serif;
+	font-weight: bold;
+}
+
+#login_form{
+	align-self: flex-start;
+	display: grid;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pro label{
+	margin-right: 10px;
+	color:var(--Tert-clr);
+}
+.pro1 button{
+	background-color: var(--pri-clr);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border : 2px solid var(--sec-clr);
+}
+
+.pro1 button:hover{
+	padding: 8px 15px;
+}
+
+.pro1 img{
+	border:2px solid var(--pri-clr);
+	border-radius: 100px;
+}
+
+.login_form_field{
+	border: none;
+/*	border-bottom: 2px solid black;
+*/	margin-bottom: 5px;
+	outline: none;
+	padding: 0px 0px 5px 5px;
+	border-radius: 5px;
+	padding: 5px;
+	border-bottom: 1px solid var(--pri-clr);
+	background-color:inherit;
+}
+.login_form_field:hover{
+	background-color: var(--pri-clr);
+	color: black;
+	border-radius: 3px;
+}
+.login_form_field:focus{
+	border: 2px solid var(--sec-clr);
+}
+
+.login_form_field::placeholder{
+	color:var(--Tert-clr);
+	font-weight: bold;
+}
+
+#last input{
+	background-color: var(--pri-clr);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border : 2px solid var(--sec-clr);
+}
+
+#last input:hover{
+	padding: 8px 15px;
+}
+
+/*#login_form_submit{
+	width: 40%;
+	padding: 2px;
+	border: 2px;
+	border-radius: 5px;
+	color: #04364A;
+	font-size: 16px;
+	font-weight: bold;
+	background-color:green;
+	cursor: pointer;
+}*/
+/*#sub{
+	display: flex;
+	margin: 5px;
+	background-color: green;
+}
+ 	*/
+
+ .logo{
+	display:flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	animation: logoBounce 5s ease-in infinite;	
+}
+
+@keyframes logoBounce{
+ 0%{
+ 	transform: translateX(0);
+ }
+
+ 25%{
+ 	transform: translateX(50px);
+ }
+
+ 50%{
+ 	transform: translateX(0);
+ }
+
+ 75%{
+ 	transform: translateX(25px);
+ }
+
+ 100%{
+ 	transform: translateX(0);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /*media queries*/
+
+@media only screen and (max-width:589px){
+	span{
+	display:block;
+}
+
+#nav{
+	display:none;
+}
+
+}
+

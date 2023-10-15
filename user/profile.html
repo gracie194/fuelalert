@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="profile.css">
+	<title>Profile Page</title>
+	</head>
+	<body>
+		<div class="navbar">
+			 <div class="logo">
+			 	<img src="access/fuel.png" width="80px" height="80px;">
+               <h3 style="color: var(--Tert-clr);"><b><br>USER PROFILE</b><br></h3>
+            </div>
+             <div class="logo2">
+                <ul id="nav">
+                    <li><a href="profile.html">User Profile</a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="editUser.html">Edit User</a></li>
+                    <span>&#9778</span>
+                </ul>
+            </div>
+        </div> 
+    </div> 
+
+        <main id="main_holder">
+            <div id="header" >
+        <div id="head">
+            <h2 id="login_header">User Profile page</h2>
+            </div> 
+
+        <form id="login_form">
+
+            <div class="pro1">
+                 <input type="file" id="img"data-index="0" onchange="swapImage(this)"><br> 
+                 <img src="https://dummyimage.com/50*50/000/fff" data-index="0" width="150px" height="150px"><br>
+                 <button>Upload Image....</button>
+                 <!-- <img src="access/avat2.jpg" width="150px" height="150px;"><br>
+                 <button>Upload Image....</button> -->
+            </div><br><br>
+
+            <div class="pro">
+                 <label >Firstname:</label>
+                 <input type="text" name="Firstname" id="Firstname_field" class="login_form_field" placeholder="Firstname"><br> 
+            </div><br>
+        
+            <div class="pro">
+                 <label >Lastname:</label>
+                 <input type="text" name="Lastname" id="Lastname_field" class="login_form_field" placeholder="Lastname"><br>
+            </div><br>
+      
+             <div class="pro">
+                 <label >Email:</label>
+                 <input type="text" name="Email " id="Email_field" class="login_form_field" placeholder="Email"><br>
+            </div><br>
+
+            <div id="last">
+                 <input type="submit" class="submit" value="Save" id="submitted" onclick="save()">
+            </div>
+        </div>
+
+        </form>
+        </div>
+        </main> 
+    <script src="profile.js"></script>
+</body>
+</html>
+            
+       
