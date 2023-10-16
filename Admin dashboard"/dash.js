@@ -1,4 +1,40 @@
-// const searchInput = document.getElementById('search-input').value
+const searchInput = document.getElementById('search-input').value
+// const cards = document.getElementsByClassName('card')
+const dashboard = document.getElementById('dashboard')
+const searchResult = document.getElementById('searchResult')
+
+
+function handleSearch(){
+  const query = searchInput.value.toLowerCase()
+  const cards = dashboard.getElementsByClassName('card')
+
+  Array.from(cards).forEach((card) => {
+    const cardContent = card.textContent.toLowerCase()
+    if(cardContent.includes(query)){
+      const filteredCardContent = cardContent.split(" ").filter((item) => item.includes(query)).join(" ")
+   if(filteredCardContent){
+    const resultItem = document.createElement('div')
+    resultItem.textContent = filteredCardContent
+    searchResult.appendChild(resultItem)
+   }
+    }
+  })
+}
+searchInput.addEventListener("input",handleSearch)
+
+// searchInput.addEventListener('input', function(){
+//   const searchValue = this.value.toLowerCase()
+//   const dashboardItems = dashboard.getElementsByClassName('card')
+//   for(let i = 0; i < dashboardItems.length; i++){
+//     const dashboardContent = dashboardItems[i].textContent
+//     if(dashboardContent.toLowerCase().includes(searchValue)){
+//       dashboardItems[i].Style.display = 'block'
+//     }
+//     else{
+//       dashboardItems[i].Style.display = 'none'
+//     }
+//   }
+// })
 // searchInput.addEventListener('keyup',(e) =>{
 //   const seacrhData = e.target.value.tolowerCase()
 //   const filterData = categories.filter((item) => {
@@ -12,6 +48,7 @@
 
 // }
 // se 
+
 
 
 // // function to fetch and display statistics
