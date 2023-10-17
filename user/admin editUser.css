@@ -1,0 +1,138 @@
+:root{
+--pri-clr:#04364A;
+--sec-clr: #176B87;
+--acct-clr: #64ccc5;
+--Tert-clr: #DAFFFB;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+    background-color:var(--pri-clr);
+    margin-top:5px;
+   display:flex;
+   flex-direction: row;
+   justify-content:space-between; 
+}
+  
+#nav{
+  margin-top:40px;
+  display:flex;
+  flex-direction: row;
+    /*height: 100%;
+  width: 100%;*/
+  color: var(--Tert-clr);
+  text-decoration: none;
+  font-weight: bold;
+ }
+
+ #navr div{
+    padding: 1px;
+ }
+
+ #navr div a{
+  color: var(--pri-clr);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+ }
+
+  #navr div a:hover{
+    background-color: var(--sec-clr)
+  }
+ 
+
+ h3{
+  color: var(--Tert-clr);
+ }
+  
+ .logo2{
+  margin-left: -10px;
+  margin-right: 40px;
+ }
+
+ .logo img{
+  background-color: white;
+  border-radius: 100px;
+    margin-left: 25px;
+ }
+
+ ul{
+  list-style: none;
+  color: #04364A;
+ }
+
+ul li a{
+  text-decoration: none;
+  color: var(--Tert-clr);
+    margin-right: 50px;
+    margin-top: 20px;
+ }
+
+body{
+    background-image: url("act/fuel6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #many{
+    background-color: rgba(4,54,74,0.5);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #many input{
+    font-weight: bold;
+    border:none;
+    padding: 8px;
+    background-color: inherit;
+  }
+
+  #many input:hover{
+    background-color: var(--acct-clr);
+    padding: 10px;
+  }
+
+ #many button{
+  background-color: var(--pri-clr);
+  border: 1px solid white;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+ }
+
+  #many button:hover{
+    background-color: var(--Tert-clr);
+    padding: 10px;
+  }
+
+  #many2{
+    background-color:rgba(255,255,255,0.5);
+    padding: 100px;
+
+  }
+  span{
+    font-weight:bold;
+    color: var(--pri-clr); 
+  }
+
+
+
+  .logo{
+       display:flex;
+     flex-direction: column;
+     height: 200px;
+     width: 200px;
+  }
+  
+

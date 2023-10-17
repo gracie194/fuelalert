@@ -1,0 +1,158 @@
+:root{
+--pri-clr:#04364A;
+--sec-clr: #176B87;
+--acct-clr: #64ccc5;
+--Tert-clr: #DAFFFB;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+    background-color:var(--acc-clr);
+    margin-top:5px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;	
+}
+
+#nav{
+ 	margin-top:40px;
+	display:flex;
+	flex-direction: row;
+    /*height: 100%;
+	width: 100%;*/
+	color: var(--Tert-clr);
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+ h3{
+ 	color: var(--Tert-clr)
+ }
+
+ .logo2{
+ 	margin-left: -10px;
+ 	margin-right: 40px;
+ }
+
+ .logo img{
+    background-color: white;
+	border-radius: 100px;
+    margin-left: 25px;
+ }
+
+ ul{
+ 	list-style: none;
+ 	color: #04364A;
+ }
+
+ul li a{
+ 	text-decoration: none;
+ 	color: var(--Tert-clr);
+    margin-right: 50px;
+ }
+
+
+body{
+  	background-image: url("asset/fuel3.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  }
+
+
+
+
+#package{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+    color:black;
+	margin-left:90px;
+	width:950px;
+	font-family: cursive;
+	margin: 20px;
+	padding: 80px;
+	font-weight: bold;
+	font-size: 18px;
+	text-shadow: black;
+}
+
+#package p{
+/*	text-shadow: 2px 2px #DAFFFB;
+*/    background-color: rgba(255,255,255,0.3);
+      padding: 10px;
+      border-radius: 10px;
+}
+
+#package button{
+	background-color: var(--sec-clr);
+	border: 1px solid var(--Tert-clr);
+	padding: 5px 8px;
+	font-size: 16px;
+	color: var(--Tert-clr); 
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: cursive;
+}
+
+
+#package button:hover{
+	background-color: var(--pri-clr);
+}
+
+
+footer{
+	background-color: black;
+	color: var(--Tert-clr);
+	text-align: center;
+	padding:10px 0; 
+}
+
+.logo{
+	display:flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	animation: logoBounce 5s ease-in infinite;	
+}
+
+@keyframes logoBounce{
+ 0%{
+ 	transform: translateY(0);
+ }
+
+ 25%{
+ 	transform: translateY(50px);
+ }
+
+ 50%{
+ 	transform: translateY(0);
+ }
+
+ 75%{
+ 	transform: translateY(25px);
+ }
+
+ 100%{
+ 	transform: translateY(0);
+ }
+
+
+
+ @media (max-width: 768px){
+ 	nav{
+ 		display: block;
+ 	}
+ 
+    span{
+     display:none;
+    }
+}
+
