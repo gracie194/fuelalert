@@ -1,0 +1,194 @@
+:root {
+    --pri-color: #04364a;
+    --sec-color: #176b87;
+    --accent-color: #64ccc5;
+    --tertiary-color: #dafffb;
+}
+
+
+.navlink {
+    padding: 90px;
+    margin: 30px;
+    justify-content: space-between;
+    list-style: none;
+    line-height: 1.8;
+}
+
+    .sweat{
+        padding: 5px;
+        margin: 10px;
+        width: 100px;
+    
+    }
+    .sweat a{
+        color: black;
+        margin: 20px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .sweat a:hover{
+            background-color: #176287be;
+            padding: 5px;
+    }
+    .sweat1{
+        padding: 5px;
+        margin: 10px;
+        width: 100px;
+    
+    }
+    .sweat1 a{
+        color: black;
+        margin: 20px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .sweat1 a:hover{
+        background-color: #175c87ca;
+        padding: 5px;
+    }
+    .sweat2{
+        padding: 5px;
+        margin: 10px;
+        width: 100px;
+    
+    }
+    .sweat2 a{
+        color: black;
+        margin: 20px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    }
+    .sweat2 a:hover{
+        background-color: #176b87c3;
+        padding: 5px;
+    }
+    .sweat3{
+        padding: 5px;
+        margin: 10px;
+        width: 100px;
+    
+    }
+    .sweat3 a{
+        color: black;
+        margin: 20px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    }
+    .sweat3 a:hover{
+        background-color: #176b87be;
+        padding: 5px;
+    }
+
+
+body{
+    background-image: url(asset/cat/you7.JPG) ;
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+#col{
+    font-size: 24%;
+    font-weight: 50%;
+    border-radius: 50px;
+    height: 50px;
+    padding: 20px;
+    
+    
+}
+.col1{
+    font-size: 24%;
+    padding: 20px;
+    font-weight: 50%;
+    border-radius: 50px;
+    height: 50px;
+    margin-left: -20px;
+    
+    
+}
+.formC{
+    font-size: 30px;
+    padding: 50px;
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    background-color: #DAFFFB;
+
+}
+.formC:hover{
+    background-color: #64CCC5;
+    transition: all 1000ms ease;
+
+    }
+.fafa{
+
+    border-radius: 40px;
+
+    
+}
+.contactus{
+   background-color:#DAFFFB;
+   margin: 10px;
+   padding: 30px;
+   border-radius: 15px;
+    
+}
+.contactus a{
+    margin: 20px;
+}
+.section2{
+    margin-left: 50px;
+}
+.form-control{
+    width: 300px;
+    height: 40px;
+    margin-left: -20px;
+    border-radius: 10px;
+}
+.form-control:hover{
+background-color: #64CCC5;
+transition: all 1000ms ease;
+padding: 10px;
+}
+.header{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .toppest{
+        /* background-image: linear-gradient(90deg, #176B87 50%, #64CCC5 50%) ;  */
+        border: 2px solid #DAFFFB;
+        padding: 50px;
+        border-radius: 20px;
+        background-color:#176ab783 ;
+        margin-right: 59px;
+        
+    }
+    .alt-send-button button{
+        padding: 10px;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: #DAFFFB;
+        text-decoration: #628b87c5;
+        border: 2px solid #DAFFFB;
+    
+    
+    }
+    .alt-send-button button:hover{
+        background-color: #64ccc5b9;
+        transition: all 1000ms ease;
+        padding: 10px;
+        }
+    
+
+
+
