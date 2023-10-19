@@ -1,0 +1,131 @@
+:root {
+    --pri-color: #04364a;
+    --sec-color: #176b87;
+    --accent-color: #64ccc5;
+    --tertiary-color: #dafffb;
+}
+
+
+body{
+    background-image: url(assets/you3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 10px;
+}
+.navo{
+    display: flex;
+    padding: 30px;
+    background-color: #dafffbf8;
+    height: 120px;
+    margin: 10px;
+    
+}
+.navos1 img{
+    width:150px;
+    height: 150px;
+    background-color: #dafffbc0;
+    border-radius: 50%;
+
+}
+.sweat li{
+    display: inline;
+    margin: 10px;
+    float: right;
+    font-size: larger;
+
+}
+.sweat li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    
+
+
+}
+.sweat li a:hover {
+    background-color: #176b87;
+    
+
+}
+.sweat{
+    margin: 0px;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    margin-left: 350px;
+}
+.user-list{
+    background-color: #176b87ce;
+    justify-content: center;
+    align-items: center;
+    /* display: grid; */
+    margin-left: 350px;
+    width: 600px;
+    height: 200px;
+    color: #dafffb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+    
+}
+.users h1{
+    margin: 30px;
+    padding: 10px;
+    background-color: #04364a;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+    font-size: larger;
+    
+}
+
+
+.users h2{
+    margin: 30px;
+    background-color: #04364a;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+    font-size: larger;
+
+}
+.admin-panel h2{
+    margin: 30px;
+    background-color: #04364a;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+    font-size: larger;
+
+}
+#user-id{
+    width: 30%;
+    height: 70%;
+    border: 5px solid #dafffb;
+    border-radius: 20px;
+
+}
+.delete-button{
+    width: 30%;
+    height: 50%;
+    border: 5px solid #dafffb;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.delete-button:hover{
+    background-color: #176b87;
+}
